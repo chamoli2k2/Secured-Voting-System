@@ -51,6 +51,6 @@ By developing the "Secure Online Voting System," we aim to enhance the efficienc
 
 - [@Chamoli2k2](https://github.com/Chamoli2k2)
 - [@Harshbansal0001](https://www.github.com/Harshbansal0001)
-- [@octokatherine](https://www.github.com/octokatherine)
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@Shivambruice](https://www.github.com/Shivambruice)
+- [@VishalSaini2809](https://www.github.com/VishalSaini2809)
 
