@@ -50,3 +50,7 @@ By developing the "Secure Online Voting System," we aim to enhance the efficienc
 - [@Harshbansal0001](https://www.github.com/Harshbansal0001)
 - [@Shivambruice](https://www.github.com/Shivambruice)
 - [@VishalSaini2809](https://www.github.com/VishalSaini28)
+
+<a href="https://github.com/Chamoli2k2/Secured-Voting-System/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Chamoli2k2/Secured-Voting-System" />
+</a>
