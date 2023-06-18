@@ -46,9 +46,18 @@ By developing the "Secure Online Voting System," we aim to enhance the efficienc
 - **Welcome Screen will appear**
 ![App Screenshot](CodeWorking/1.png)
 
-- Candidate detail's will be taken before starting voting **(Demo of how it is done)**
+- Candidate detail's will be taken before starting voting. **Screen will be cleared after a candidate fill his details**
+```
+Candidate 1 : Entering his details
+```
 ![App Screenshot](CodeWorking/2.png)
+```
+Candidate 2 : Entering his details
+```
 ![App Screenshot](CodeWorking/3.png)
+```
+Candidate 3 : Entering his details
+```
 ![App Screenshot](CodeWorking/4.png)
 
 - Now we should ask for detail of voter before he can cast the vote. **Screen will be cleared after voter cast the vote**
