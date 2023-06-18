@@ -88,6 +88,7 @@ class DBC{
 class DBV{
     private:
         unordered_map<Voter*,bool> VID;
+<<<<<<< HEAD
         unordered_map<string,Voter*> VoterID;
         unordered_map<string,bool> VoteGiven;
     public:
@@ -96,27 +97,67 @@ class DBV{
             if(VoterID.find(id) == VoterID.end() || VoteGiven[id] == 1){
                 return false;
             }
+=======
+        unordered_map<string,Voter*> VoterNo;
+        unordered_map<string,bool> VoterID;
+        unordered_map<string,bool> VoteGiven;
+    public:
+        DBV(){
+            ifstream fileIn;
+            fileIn.open("VoterID.txt");
+            string line;
+
+            while (getline(fileIn,line)) {
+                VoterID[line] = true;
+            }
+
+            fileIn.close();
+        }
+
+        // Checking if voter is valid
+        bool check(string id){
+            if(VoterID[id] == false || VoteGiven[id] == 1){
+                return false;
+            }
+            ofstream fileOut;
+            fileOut.open("votingData.txt",ios::app);
+            fileOut<<id<<'\n';
+>>>>>>> master
             return true;
         }
 
         // Adding voter to the database
+<<<<<<< HEAD
         void Add(Voter *vt){
+=======
+        string Add(Voter *vt){
+>>>>>>> master
             // Marking candidate registered
             VID[vt] = true;
             int num = rand() % 100 + 1;
             string id = to_string(num);
+<<<<<<< HEAD
             while(VoterID.find(id) != VoterID.end()){
+=======
+            while(VoterNo.find(id) != VoterNo.end()){
+>>>>>>> master
                 num = rand() % 100 + 1;
                 id = to_string(num);
             }
             // Adding candidate with it's Unique ID
+<<<<<<< HEAD
             VoterID[id] = vt;
+=======
+            VoterNo[id] = vt;
+            return id;
+>>>>>>> master
         }
 
         // Marking Vote is given
         void VoteMark(string id){
             VoteGiven[id] = true;
         }
+<<<<<<< HEAD
 
         // Fuction to show list of Candidates
         void ListV(){
@@ -126,6 +167,8 @@ class DBV{
                 idx++;
             }
         }
+=======
+>>>>>>> master
 };
 
 #endif
