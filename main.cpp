@@ -48,7 +48,7 @@ int main(){
     
     for(int i=0;i<nVoter;i++){
         cout<<"--------------------------------Fill the voter Details--------------------------------"<<endl;
-        // Creating the candidate
+        // Creating the voter
         Voter* vt = new Voter();
         pair<string,string> VV;
         VV.first = vt->AddDetail();
