@@ -7,7 +7,7 @@ Key Features :
 
 1) User Registration and Authentication: The system allows voters to register and authenticate their identities using their unique voter ID, ensuring that only eligible voters can participate in the election.
 
-2) Candidate Management: Administrators can add, update, or remove candidates as needed.
+2) We can have all data regarding stored in the file live, so we don't need to worry about any type of data loss.
 
 By developing the "Secure Online Voting System," we aim to enhance the efficiency, convenience, and security of the voting process, thereby encouraging broader participation and fostering trust in democratic practices.
 <br>
@@ -19,15 +19,15 @@ By developing the "Secure Online Voting System," we aim to enhance the efficienc
 
 2) Database:
 
-![App Screenshot](images/databasepng.png)
+![App Screenshot](images/database.png)
 
 3) Candidate
 
-![App Screenshot](images/candidatepng.png)
+![App Screenshot](images/candidate.png)
 
 4) Voter
 
-![App Screenshot](images/voterpng.png)
+![App Screenshot](images/voter.png)
 
 
 ## OUTPUT
